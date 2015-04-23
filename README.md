@@ -3,8 +3,9 @@ A API driven web service to easily feed data into Juniper's SecIntel service
 
 # API
 
-
+```
 /api/v1/host/<name>
+```
 
 | Method | Description |
 |:-------|:----------------------|
@@ -13,7 +14,9 @@ A API driven web service to easily feed data into Juniper's SecIntel service
 |PUT     | Updates the hosts metadata with the given name |
 | DELETE | Removes the current host from the feed |
 
+```
 /api/v1/feed/<name>?format=<type>
+```
 
 | Method | Description |
 |:-------|:-----------|
