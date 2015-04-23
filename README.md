@@ -6,7 +6,7 @@ A API driven web service to easily feed data into Juniper's SecIntel service
 
 /api/v1/host/<name>
 
-| METHOD | Description |
+| Method | Description |
 |:-------|:----------------------|
 | GET    | Gets the current host |
 |POST    | Creates a new host with the specified name |
@@ -15,7 +15,7 @@ A API driven web service to easily feed data into Juniper's SecIntel service
 
 /api/v1/feed/<name>?format=<type>
 
-| METHOD | Description |
+| Method | Description |
 |:-------|:-----------|
 | GET | Returns the feed, CSV format is the default |
 
